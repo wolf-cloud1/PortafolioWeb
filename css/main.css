@@ -21,7 +21,63 @@ body {
 
 header {
     width: 100%;
-    background-image: url(.../img/portada.png); /* imagen de fondo */
+    background-image: url(../img/portada.png); /* imagen de fondo */
     background-repeat: no-repeat; /* Para que no se repita la imagen*/
     background-position: center;
+    background-size: cover; /* La imagen se escala*/
+}
+
+header .menu {
+    /* text-align: right; lo reemplazaré por Flexbox*/ 
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+header .menu a {
+    display: inline-block;
+    padding: 15px 10px;
+    font-size: 24px;
+    text-decoration: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+
+header .menu a:hover {
+    text-decoration: underline;
+}
+
+header .contenedor-textos-header {
+    margin: 150px;
+    text-align: center;
+}
+
+header .contenedor-textos-header .titulo-header {
+    font-size: 100px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+header .contenedor-textos-header .linea {
+    width: 600px;
+    margin: auto;
+    height: 3px;
+    background: #FFF;
+    margin-bottom: 20px;
+}
+
+header .contenedor-textos-header .subtitulo-header {
+    margin-top: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+header .contenedor-textos-header .call-to-action {
+    display: inline-block;
+    margin-top: 85px;
+    padding: 10px 10px;
+    border: 1px solid #8dc7eb;
+    color: #fff;
+    text-decoration: none;
 }
