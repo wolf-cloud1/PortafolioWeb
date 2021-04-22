@@ -24,7 +24,7 @@ header {
     background-image: url(../img/portada.png); /* imagen de fondo */
     background-repeat: no-repeat; /* Para que no se repita la imagen*/
     background-position: center;
-    background-size: cover; /* La imagen se escala*/
+    /*background-size: cover; /* La imagen se escala*/
 }
 
 header .menu {
@@ -53,31 +53,57 @@ header .contenedor-textos-header {
 }
 
 header .contenedor-textos-header .titulo-header {
-    font-size: 100px;
+    margin-top: 325px;
+    font-size: 55px;
     color: #fff;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */ 
 }
 
 header .contenedor-textos-header .linea {
-    width: 600px;
+    width: 330px;
     margin: auto;
     height: 3px;
-    background: #FFF;
+    background: #fff;
     margin-bottom: 20px;
 }
 
 header .contenedor-textos-header .subtitulo-header {
-    margin-top: 0;
     font-size: 20px;
     color: #fff;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
 header .contenedor-textos-header .call-to-action {
     display: inline-block;
-    margin-top: 85px;
-    padding: 10px 10px;
+    padding: 10px 15px;
     border: 1px solid #8dc7eb;
+    text-align: center;
     color: #fff;
     text-decoration: none;
+    border-radius: 3px;
+}
+
+header .contenedor-textos-header .call-to-action:hover {
+    background: #8dc7eb;
+    color: #fff;
+}
+
+main .acerca-de {
+    background: #F0F3F5;
+    padding: 30px 0;
+    text-align: center;
+}
+
+main .acerca-de .contenedor-texto-acerca .titulo-acerca {
+    font-size: 28px;
+    font-weight: 900;
+    /* color: #999999; */
+    margin-bottom: 20px;
+}
+
+main .acerca-de .contenedor-texto-acerca .parrafo-acerca {
+    color: #999999;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
