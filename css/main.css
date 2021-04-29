@@ -71,7 +71,7 @@ header .contenedor-textos-header .subtitulo-header {
     font-size: 20px;
     color: #fff;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 header .contenedor-textos-header .call-to-action {
@@ -136,4 +136,33 @@ main .portafolio {
 
 main .contenedor-textos-portafolio {
     text-align: center;
+}
+
+main .contenedor-textos-portafolio .titulo-portafolio {
+    font-weight: 900; /* especifica el peso o grueso de la letra */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+main .contenedor-textos-portafolio .parrafo-portafolio {
+    font-weight: normal;
+    color: #999999;
+    margin-bottom: 60px;
+}
+
+main .portafolio .contenedor-portafolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .portafolio .contenedor-portafolio img {
+    width: 32%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+main .portafolio .contenedor-portafolio img:hover {
+    opacity: .6;
 }
