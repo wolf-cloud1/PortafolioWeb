@@ -166,3 +166,80 @@ main .portafolio .contenedor-portafolio img {
 main .portafolio .contenedor-portafolio img:hover {
     opacity: .6;
 }
+
+footer {
+    background: #071c29;
+    width: 100%;
+    height: 600px;
+    padding: 60px 0;
+    /* background-image: url(../img/footer.png); */
+}
+
+footer .footer-textos {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+footer .footer-textos h2 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 900; /* especifica el peso o grueso de la letra */
+    margin-bottom: 15px;
+}
+
+footer .footer-textos .titulo-parrafo {
+    font-weight: 300; /* especifica el peso o grueso de la letra */
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+footer .formulario {    
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+footer .formulario .nombre-contacto, footer .formulario .nombre-correo, footer .formulario .mensaje {
+    display: inline-block;    
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+    font-family: 'lato';
+    font-weight: 300;
+    font-size: 14px;
+}
+::placeholder {
+    color: #fff;
+    opacity: .6;
+}
+
+footer .formulario .mensaje {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+footer .formulario .derecha {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .formulario .boton-envio {
+    display: inline-block;
+    padding: 15px 10px;
+    background: none;
+    border: 1px solid #15a4fa;
+    color: #fff;
+    border-radius: 3px;
+}
+
+footer .formulario .boton-envio:hover {
+    background: #15a4fa;
+    color: #fff;
+    cursor: pointer;
+}
