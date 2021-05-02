@@ -262,9 +262,17 @@ footer .formulario .boton-envio:hover {
     }
     .contenedor-iconos {
         flex-direction: column;
+        
     }    
     .contenedor-iconos .icono-individual {
         width: 90%;
         margin: auto;
+        margin-top: 10px;
+    }
+    main .portafolio .contenedor-portafolio {
+        justify-content: space-around;
+    }    
+    main .portafolio .contenedor-portafolio img {
+        width: 48%;
     }
 }
